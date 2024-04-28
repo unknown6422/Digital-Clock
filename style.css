@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+
+#container{
+    min-height: 800px;
+    position: relative;
+}
+
+
+#clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 68px;
+    background-color: black;
+    border: 10px solid white;
+    border-radius: 30px;
+    padding: 50px 50px  50px 50px;
+    color: white;
+}
